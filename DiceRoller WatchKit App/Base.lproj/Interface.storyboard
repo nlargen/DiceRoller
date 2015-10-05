@@ -5,16 +5,20 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Buttonaddcontroller-->
         <scene sceneID="aCv-QL-kfz">
             <objects>
-                <controller hidesWhenLoading="NO" id="gRO-ag-g03">
+                <controller hidesWhenLoading="NO" id="gRO-ag-g03" customClass="buttonaddcontroller" customModule="DiceRoller_WatchKit_Extension">
                     <items>
                         <group width="131" height="123" alignment="left" id="gWR-oR-fQd">
                             <items>
                                 <group width="64" height="125" alignment="left" layout="vertical" id="BSE-Ss-QEi">
                                     <items>
-                                        <button width="1" alignment="left" title="D4" id="ZFv-UX-OFe"/>
+                                        <button width="1" alignment="left" title="D4" id="ZFv-UX-OFe">
+                                            <connections>
+                                                <segue destination="H2b-hL-nVv" kind="push" id="XPX-Mh-GdE"/>
+                                            </connections>
+                                        </button>
                                         <button width="1" alignment="left" title="D8" id="Tgp-2w-cX8"/>
                                         <button width="1" height="36.5" alignment="left" title="D12" id="VZb-ir-5nX"/>
                                     </items>
@@ -34,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="356" y="260.75"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Adddice-->
         <scene sceneID="hfv-Wm-Mi0">
             <objects>
-                <controller hidesWhenLoading="NO" id="H2b-hL-nVv">
+                <controller hidesWhenLoading="NO" id="H2b-hL-nVv" customClass="adddice" customModule="DiceRoller_WatchKit_Extension">
                     <items>
                         <group width="1" height="148" alignment="left" layout="vertical" id="Gad-58-CP9">
                             <items>
@@ -51,6 +55,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="pickerout" destination="5xV-mc-1Op" id="MQJ-8m-Lmq"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="531" y="254"/>
@@ -67,10 +74,14 @@
                                         <segue destination="gRO-ag-g03" kind="push" id="IWa-Sf-60a"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Roll" id="QQB-n7-vEx"/>
+                                <button width="1" alignment="left" title="Roll" id="QQB-n7-vEx">
+                                    <connections>
+                                        <action selector="calculateroll" destination="AgC-eL-Hgc" id="LqA-AG-IR6"/>
+                                    </connections>
+                                </button>
                                 <table alignment="left" id="zTK-1L-pSg">
                                     <items>
-                                        <tableRow id="2Oh-Aj-Swt">
+                                        <tableRow id="2Oh-Aj-Swt" customClass="tablecell" customModule="DiceRoller_WatchKit_Extension">
                                             <group key="rootItem" width="1" alignment="left" layout="vertical" id="afE-jI-RcZ">
                                                 <items>
                                                     <separator alignment="left" id="Yl7-5v-TLA"/>
@@ -82,6 +93,10 @@
                                                     </group>
                                                 </items>
                                             </group>
+                                            <connections>
+                                                <outlet property="diceimage" destination="9eA-jj-Kwa" id="glj-Ng-1CE"/>
+                                                <outlet property="dicelabel" destination="zY8-8o-7WE" id="F0E-Gk-g4o"/>
+                                            </connections>
                                         </tableRow>
                                     </items>
                                 </table>

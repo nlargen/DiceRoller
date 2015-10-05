@@ -1,8 +1,8 @@
 //
-//  InterfaceController.swift
-//  DiceRoller WatchKit Extension
+//  buttonaddcontroller.swift
+//  DiceRoller
 //
-//  Created by Nicholas Largen on 10/2/15.
+//  Created by Nicholas Largen on 10/5/15.
 //  Copyright © 2015 Nicholas Largen. All rights reserved.
 //
 
@@ -10,17 +10,12 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class buttonaddcontroller: WKInterfaceController {
 
-   
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
-    }
-    @IBAction func calculateroll()
-    {
-        
     }
 
     override func willActivate() {
