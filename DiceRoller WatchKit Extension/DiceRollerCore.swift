@@ -16,6 +16,8 @@ class DiceRollerCore: NSObject
     static var diceselected = [Int]()
     static var numdiceforeach = [Int]()
     
-    
+    static var toroll = 0
+    static var rollsides = 0
+    static var rolltotal = 0
 
 }
