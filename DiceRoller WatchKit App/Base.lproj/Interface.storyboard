@@ -16,42 +16,70 @@
                                     <items>
                                         <button width="1" alignment="left" title="D4" id="ZFv-UX-OFe">
                                             <connections>
-                                                <segue destination="H2b-hL-nVv" kind="push" id="XPX-Mh-GdE"/>
+                                                <action selector="d4buttonclick" destination="gRO-ag-g03" id="FNa-bX-cdI"/>
                                             </connections>
                                         </button>
-                                        <button width="1" alignment="left" title="D8" id="Tgp-2w-cX8"/>
-                                        <button width="1" height="36.5" alignment="left" title="D12" id="VZb-ir-5nX"/>
+                                        <button width="1" alignment="left" title="D8" id="Tgp-2w-cX8">
+                                            <connections>
+                                                <action selector="D8buttonclick" destination="gRO-ag-g03" id="vyL-xr-HXW"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="36.5" alignment="left" title="D12" id="VZb-ir-5nX">
+                                            <connections>
+                                                <action selector="D12buttonclick" destination="gRO-ag-g03" id="gEO-Q5-lNx"/>
+                                            </connections>
+                                        </button>
                                     </items>
                                 </group>
                                 <group width="62" height="125" alignment="left" layout="vertical" id="bpt-kY-Hvo">
                                     <items>
-                                        <button width="1" height="38.5" alignment="left" title="D6" id="V79-lg-FEh"/>
-                                        <button width="1" height="34.5" alignment="left" title="D10" id="Kk0-rJ-vPn"/>
-                                        <button width="1" alignment="left" title="D20" id="6Oz-eb-HNy"/>
+                                        <button width="1" height="38.5" alignment="left" title="D6" id="V79-lg-FEh">
+                                            <connections>
+                                                <action selector="D6buttonclick" destination="gRO-ag-g03" id="sbe-oI-xP9"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="34.5" alignment="left" title="D10" id="Kk0-rJ-vPn">
+                                            <connections>
+                                                <action selector="D10buttonclick" destination="gRO-ag-g03" id="aC6-qK-qtd"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" alignment="left" title="D20" id="6Oz-eb-HNy">
+                                            <connections>
+                                                <action selector="D20buttonclick" destination="gRO-ag-g03" id="V4w-Xz-qPT"/>
+                                            </connections>
+                                        </button>
                                     </items>
                                 </group>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="D100" id="7Kh-ys-SXi"/>
+                        <button width="1" alignment="left" title="D100" id="7Kh-ys-SXi">
+                            <connections>
+                                <action selector="D100ButtonClick" destination="gRO-ag-g03" id="bh0-UF-8Zh"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="356" y="260.75"/>
+            <point key="canvasLocation" x="338" y="260.75"/>
         </scene>
-        <!--Adddice-->
+        <!--AddDice-->
         <scene sceneID="hfv-Wm-Mi0">
             <objects>
-                <controller hidesWhenLoading="NO" id="H2b-hL-nVv" customClass="adddice" customModule="DiceRoller_WatchKit_Extension">
+                <controller identifier="AddDice" hidesWhenLoading="NO" id="H2b-hL-nVv" customClass="adddice" customModule="DiceRoller_WatchKit_Extension">
                     <items>
                         <group width="1" height="148" alignment="left" layout="vertical" id="Gad-58-CP9">
                             <items>
                                 <button width="1" alignment="left" title="Add Rolls" id="9e7-0Q-0pT">
                                     <connections>
-                                        <segue destination="AgC-eL-Hgc" kind="push" id="MCi-16-xd8"/>
+                                        <action selector="addrolls" destination="H2b-hL-nVv" id="7aB-wn-6zx"/>
                                     </connections>
                                 </button>
                                 <separator alignment="left" id="NDe-T0-51W"/>
-                                <picker width="1" height="100" alignment="left" id="5xV-mc-1Op"/>
+                                <picker width="1" height="100" alignment="left" focusStyle="sequence" id="5xV-mc-1Op">
+                                    <connections>
+                                        <action selector="pickerupdate:" destination="H2b-hL-nVv" id="iSs-EZ-eEq"/>
+                                    </connections>
+                                </picker>
                             </items>
                         </group>
                     </items>
@@ -60,14 +88,14 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="531" y="254"/>
+            <point key="canvasLocation" x="552" y="261"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DiceRoller_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" height="143" alignment="left" layout="vertical" id="xA5-AS-jvb">
+                        <group width="1" alignment="left" layout="vertical" id="xA5-AS-jvb">
                             <items>
                                 <button width="1" alignment="left" title="Select Dice" id="Bhj-E1-QuO">
                                     <connections>
@@ -81,21 +109,21 @@
                                 </button>
                                 <table alignment="left" id="zTK-1L-pSg">
                                     <items>
-                                        <tableRow id="2Oh-Aj-Swt" customClass="tablecell" customModule="DiceRoller_WatchKit_Extension">
+                                        <tableRow identifier="dicetable" id="2Oh-Aj-Swt" customClass="tablecell" customModule="DiceRoller_WatchKit_Extension">
                                             <group key="rootItem" width="1" alignment="left" layout="vertical" id="afE-jI-RcZ">
                                                 <items>
                                                     <separator alignment="left" id="Yl7-5v-TLA"/>
                                                     <group width="1" alignment="left" id="zeZ-Bk-tlL">
                                                         <items>
-                                                            <imageView width="46" alignment="left" id="9eA-jj-Kwa"/>
+                                                            <label width="52.5" height="31.5" alignment="left" text="Label" id="lbL-sz-UpD"/>
                                                             <label width="81.5" height="31.5" alignment="left" text="Label" textAlignment="center" id="zY8-8o-7WE"/>
                                                         </items>
                                                     </group>
                                                 </items>
                                             </group>
                                             <connections>
-                                                <outlet property="diceimage" destination="9eA-jj-Kwa" id="glj-Ng-1CE"/>
                                                 <outlet property="dicelabel" destination="zY8-8o-7WE" id="F0E-Gk-g4o"/>
+                                                <outlet property="rolllabel" destination="lbL-sz-UpD" id="mAL-ci-CDU"/>
                                             </connections>
                                         </tableRow>
                                     </items>
@@ -103,6 +131,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="dicetable" destination="zTK-1L-pSg" id="4uf-Cb-Qwg"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="145" y="261"/>

@@ -11,25 +11,36 @@ import Foundation
 
 
 class adddice: WKInterfaceController {
+    @IBAction func pickerupdate(value: Int)
+    {
+        DiceRollerCore.numDice = value
+        
+       
+    }
 
     @IBOutlet var pickerout: WKInterfacePicker!
+    var currdiceselected = 0
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        
+        
         var thePickerItems = [WKPickerItem]()
-        let tablevals = ["D4","D6","D8","D10","D12","D20","D100"]
-        let theimages = ["d4.jpeg","d6.jpeg","d8.jpeg", "d10.jpeg","d12.jpeg","d20.jpg","d100.jpeg"]
-        for (var i = 0 ; i < tablevals.count; i++)
+        for (var i = 0 ; i < 10000; i++)
         {
             thePickerItems.append(WKPickerItem())
-            thePickerItems[i].title =  tablevals[i]
-            thePickerItems[i].caption = tablevals[i]
-            thePickerItems[i].contentImage = WKImage(imageName:theimages[i])
-        }
+            thePickerItems[i].title = "\(i)"
+            thePickerItems[i].caption = "\(i)"
+       }
         self.pickerout.setItems(thePickerItems)
-
+        
         // Configure interface objects here.
     }
 
+    @IBAction func addrolls()
+    {
+        DiceRollerCore.numdiceforeach.append(DiceRollerCore.numDice)
+        self.popToRootController()
+    }
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
