@@ -22,6 +22,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 4
         DiceRollerCore.diceselected.append(4)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D4")
         print(DiceRollerCore.whichdiceselected)
     }
@@ -30,7 +31,9 @@ class buttonaddcontroller: WKInterfaceController {
     {
         DiceRollerCore.whichdiceselected = 6
         DiceRollerCore.diceselected.append(6)
+        
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D6")
     }
     
@@ -39,6 +42,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 8
         DiceRollerCore.diceselected.append(8)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D8")
     }
     @IBAction func D10buttonclick()
@@ -46,6 +50,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 10
         DiceRollerCore.diceselected.append(10)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D10")
     }
     
@@ -54,6 +59,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 12
         DiceRollerCore.diceselected.append(12)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D12")
     }
     @IBAction func D20buttonclick()
@@ -61,6 +67,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 20
         DiceRollerCore.diceselected.append(20)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D20")
     }
     @IBAction func D100ButtonClick()
@@ -68,6 +75,7 @@ class buttonaddcontroller: WKInterfaceController {
         DiceRollerCore.whichdiceselected = 100
         DiceRollerCore.diceselected.append(100)
         DiceRollerCore.prefs.setObject(DiceRollerCore.diceselected, forKey: "whichdice")
+        DiceRollerCore.prefs.synchronize()
         self.pushControllerWithName("AddDice", context: "D100")
     }
    

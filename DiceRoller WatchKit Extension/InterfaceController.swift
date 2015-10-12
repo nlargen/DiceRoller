@@ -30,7 +30,9 @@ class InterfaceController: WKInterfaceController
     }
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
+        DiceRollerCore.numdiceforeach = DiceRollerCore.prefs.valueForKey("numdice") as! NSArray as! [Int]
+        DiceRollerCore.diceselected = DiceRollerCore.prefs.valueForKey("whichdice") as! NSArray as! [Int]
+
                 // Configure interface objects here.
     }
     @IBAction func calculateroll()
@@ -49,23 +51,16 @@ class InterfaceController: WKInterfaceController
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
-        let numdicearray = DiceRollerCore.prefs.valueForKey("numdice") as! NSArray
-        let diceselectedarray = DiceRollerCore.prefs.valueForKey("whichdice") as! NSArray
+                
+        self.dicetable.setNumberOfRows(DiceRollerCore.numdiceforeach.count, withRowType: "dicetable")
         
-        self.dicetable.setNumberOfRows(numdicearray.count, withRowType: "dicetable")
-        
-        for(var i = 0; i < numdicearray.count; i++)
+        for(var i = 0; i < DiceRollerCore.numdiceforeach.count; i++)
         {
             let currRow = self.dicetable.rowControllerAtIndex(i) as! tablecell
-            currRow.dicelabel.setText( " D \(diceselectedarray[i])")
-            currRow.rolllabel.setText("\(numdicearray[i])")
+            currRow.dicelabel.setText( " D \(DiceRollerCore.diceselected[i])")
+            currRow.rolllabel.setText("\(DiceRollerCore.numdiceforeach[i])")
             
         }
-        
-       
-        
-        
-        print(numdicearray)
         print(DiceRollerCore.prefs.valueForKey("whichdice")!)
     
         DiceRollerCore.prefs.synchronize()

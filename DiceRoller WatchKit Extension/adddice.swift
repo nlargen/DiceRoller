@@ -21,8 +21,9 @@ class adddice: WKInterfaceController {
     @IBOutlet var pickerout: WKInterfacePicker!
     var currdiceselected = 0
     override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
         
+        super.awakeWithContext(context)
+       
         
         var thePickerItems = [WKPickerItem]()
         for (var i = 0 ; i < 10000; i++)
@@ -40,6 +41,7 @@ class adddice: WKInterfaceController {
     {
         DiceRollerCore.numdiceforeach.append(DiceRollerCore.numDice)
         DiceRollerCore.prefs.setObject(DiceRollerCore.numdiceforeach, forKey:"numdice")
+        DiceRollerCore.prefs.synchronize()
        
         self.popToRootController()
     }
