@@ -41,6 +41,7 @@ class InterfaceController: WKInterfaceController
             
          self.presentAlertControllerWithTitle("The Roll", message: "\(DiceRollerCore.rolltotal)", preferredStyle: WKAlertControllerStyle.Alert, actions: [alert])
             
+            
         }
     }
     
@@ -53,8 +54,7 @@ class InterfaceController: WKInterfaceController
             let currRow = self.dicetable.rowControllerAtIndex(i) as! tablecell
             currRow.dicelabel.setText( " D \(DiceRollerCore.diceselected[i])")
             currRow.rolllabel.setText("\(DiceRollerCore.numdiceforeach[i])")
-            
-            
+            DiceRollerCore.prefs.setInteger(DiceRollerCore.numDice, forKey: "D \(DiceRollerCore.diceselected)")
             
         }
         
