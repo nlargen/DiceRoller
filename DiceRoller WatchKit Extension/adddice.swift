@@ -39,6 +39,8 @@ class adddice: WKInterfaceController {
     @IBAction func addrolls()
     {
         DiceRollerCore.numdiceforeach.append(DiceRollerCore.numDice)
+        DiceRollerCore.prefs.setObject(DiceRollerCore.numdiceforeach, forKey:"numdice")
+       
         self.popToRootController()
     }
     override func willActivate() {
