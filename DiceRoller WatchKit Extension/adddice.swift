@@ -26,7 +26,7 @@ class adddice: WKInterfaceController {
        
         
         var thePickerItems = [WKPickerItem]()
-        for (var i = 0 ; i < 10000; i++)
+        for (var i = 0 ; i < 100; i++)
         {
             thePickerItems.append(WKPickerItem())
             thePickerItems[i].title = "\(i)"

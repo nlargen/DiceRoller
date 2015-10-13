@@ -19,6 +19,14 @@ class InterfaceController: WKInterfaceController
     let theimages = ["d4.jpeg","d6.jpeg","d8.jpeg", "d10.jpeg","d12.jpeg","d20.jpg","d100.jpeg"]
     let tablevals = ["D4","D6","D8","D10","D12","D20","D100"]
     
+   
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
+        DiceRollerCore.numdiceforeach = DiceRollerCore.prefs.valueForKey("numdice") as! NSArray as! [Int]
+        DiceRollerCore.diceselected = DiceRollerCore.prefs.valueForKey("whichdice") as! NSArray as! [Int]
+
+                // Configure interface objects here.
+    }
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int)
     {
         DiceRollerCore.toroll = 0
@@ -28,23 +36,15 @@ class InterfaceController: WKInterfaceController
         DiceRollerCore.rollsides = DiceRollerCore.diceselected[rowIndex]
         
     }
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
-        DiceRollerCore.numdiceforeach = DiceRollerCore.prefs.valueForKey("numdice") as! NSArray as! [Int]
-        DiceRollerCore.diceselected = DiceRollerCore.prefs.valueForKey("whichdice") as! NSArray as! [Int]
-
-                // Configure interface objects here.
-    }
     @IBAction func calculateroll()
     {
+        DiceRollerCore.rolltotal = 0
         for(var i = 0; i < DiceRollerCore.toroll;i++)
         {
         
-            DiceRollerCore.rolltotal = DiceRollerCore.rolltotal + Int((rand()%Int32(DiceRollerCore.rollsides)+1))
+            DiceRollerCore.rolltotal = DiceRollerCore.rolltotal + (Int((rand()%Int32(DiceRollerCore.rollsides)+1)))
             
          self.presentAlertControllerWithTitle("The Roll", message: "\(DiceRollerCore.rolltotal)", preferredStyle: WKAlertControllerStyle.Alert, actions: [alert])
-            
-            
         }
     }
     

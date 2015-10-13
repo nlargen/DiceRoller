@@ -62,6 +62,37 @@
             </objects>
             <point key="canvasLocation" x="338" y="260.75"/>
         </scene>
+        <!--TypeRollController-->
+        <scene sceneID="bhh-Ua-8Qf">
+            <objects>
+                <controller identifier="TypeRollController" hidesWhenLoading="NO" id="4l0-q4-kl9" customClass="RollTypeController" customModule="DiceRoller_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="2WF-hS-BAk">
+                            <items>
+                                <button width="1" alignment="left" title="Attack" id="TKA-rx-uKt">
+                                    <connections>
+                                        <action selector="Attackbutton" destination="4l0-q4-kl9" id="7SN-Jz-e12"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="7bi-Db-VAM"/>
+                                <button width="1" alignment="left" title="Defense" id="Oyy-hl-fx5">
+                                    <connections>
+                                        <action selector="Defensebutton" destination="4l0-q4-kl9" id="5hJ-Ke-aKo"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="qmB-zh-ltk"/>
+                                <button width="1" alignment="left" title="Heal" id="t7i-FN-7Au">
+                                    <connections>
+                                        <action selector="Healbutton" destination="4l0-q4-kl9" id="g63-IK-0yr"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="499" y="257"/>
+        </scene>
         <!--AddDice-->
         <scene sceneID="hfv-Wm-Mi0">
             <objects>
@@ -88,7 +119,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="552" y="261"/>
+            <point key="canvasLocation" x="652" y="261"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">

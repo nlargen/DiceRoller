@@ -10,6 +10,7 @@ import WatchKit
 
 class DiceRollerCore: NSObject
 {
+    
     static let prefs = NSUserDefaults.standardUserDefaults()
     static var numSides = 0
     static var numDice = -1
@@ -20,5 +21,6 @@ class DiceRollerCore: NSObject
     static var toroll = 0
     static var rollsides = 0
     static var rolltotal = 0
+    static var rolltype = [String]()
 
 }

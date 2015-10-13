@@ -40,6 +40,7 @@
 		F74806FE1BBF14E6008398D9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806FD1BBF14E6008398D9 /* ExtensionDelegate.swift */; };
 		F74807001BBF14E6008398D9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806FF1BBF14E6008398D9 /* NotificationController.swift */; };
 		F74807021BBF14E6008398D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74807011BBF14E6008398D9 /* Assets.xcassets */; };
+		F7496E0E1BCC463100DB7E66 /* RollTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,7 @@
 		F74806FF1BBF14E6008398D9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F74807011BBF14E6008398D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74807031BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollTypeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 				F7210E8A1BC2FA2D00834F1B /* buttonaddcontroller.swift */,
 				F7210E8C1BC2FA6900834F1B /* adddice.swift */,
 				F7210EAC1BC30BE900834F1B /* DiceRollerCore.swift */,
+				F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			files = (
 				F7210E911BC2FBF200834F1B /* tablecell.swift in Sources */,
 				F74807001BBF14E6008398D9 /* NotificationController.swift in Sources */,
+				F7496E0E1BCC463100DB7E66 /* RollTypeController.swift in Sources */,
 				F7210E8B1BC2FA2D00834F1B /* buttonaddcontroller.swift in Sources */,
 				F7210E8D1BC2FA6900834F1B /* adddice.swift in Sources */,
 				F7210EAD1BC30BE900834F1B /* DiceRollerCore.swift in Sources */,
