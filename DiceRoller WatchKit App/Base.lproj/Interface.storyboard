@@ -126,7 +126,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DiceRoller_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="left" layout="vertical" id="xA5-AS-jvb">
+                        <group width="136" height="181" alignment="left" layout="vertical" id="xA5-AS-jvb">
                             <items>
                                 <button width="1" alignment="left" title="Select Dice" id="Bhj-E1-QuO">
                                     <connections>
@@ -138,16 +138,22 @@
                                         <action selector="calculateroll" destination="AgC-eL-Hgc" id="LqA-AG-IR6"/>
                                     </connections>
                                 </button>
+                                <label width="1" alignment="center" text="Mode: Roll" textAlignment="center" id="jX7-t3-UAc"/>
                                 <table alignment="left" id="zTK-1L-pSg">
                                     <items>
                                         <tableRow identifier="dicetable" id="2Oh-Aj-Swt" customClass="tablecell" customModule="DiceRoller_WatchKit_Extension">
-                                            <group key="rootItem" width="1" alignment="left" layout="vertical" id="afE-jI-RcZ">
+                                            <group key="rootItem" width="1" height="100" alignment="left" layout="vertical" id="afE-jI-RcZ">
                                                 <items>
                                                     <separator alignment="left" id="Yl7-5v-TLA"/>
-                                                    <group width="1" alignment="left" id="zeZ-Bk-tlL">
+                                                    <group width="1" height="68" alignment="left" layout="vertical" id="zeZ-Bk-tlL">
                                                         <items>
-                                                            <label width="52.5" height="31.5" alignment="left" text="Label" id="lbL-sz-UpD"/>
-                                                            <label width="81.5" height="31.5" alignment="left" text="Label" textAlignment="center" id="zY8-8o-7WE"/>
+                                                            <label alignment="center" text="Label" textAlignment="center" id="Swn-6v-RQn"/>
+                                                            <group width="1" alignment="left" id="skg-GH-1az">
+                                                                <items>
+                                                                    <label width="52.5" height="31.5" alignment="left" text="Label" id="lbL-sz-UpD"/>
+                                                                    <label width="56.5" height="27.5" alignment="left" text="Label" textAlignment="center" id="zY8-8o-7WE"/>
+                                                                </items>
+                                                            </group>
                                                         </items>
                                                     </group>
                                                 </items>
@@ -155,6 +161,7 @@
                                             <connections>
                                                 <outlet property="dicelabel" destination="zY8-8o-7WE" id="F0E-Gk-g4o"/>
                                                 <outlet property="rolllabel" destination="lbL-sz-UpD" id="mAL-ci-CDU"/>
+                                                <outlet property="rolltype" destination="Swn-6v-RQn" id="Ptv-tT-aSg"/>
                                             </connections>
                                         </tableRow>
                                     </items>
@@ -162,12 +169,32 @@
                             </items>
                         </group>
                     </items>
+                    <menu key="menu" id="Txz-BW-IiY">
+                        <items>
+                            <menuItem title="Edit" icon="more" id="fkp-pa-fGE">
+                                <connections>
+                                    <action selector="EditContextButtonPressed" destination="AgC-eL-Hgc" id="h5j-EE-oXa"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Roll" icon="play" id="beR-dU-8Su">
+                                <connections>
+                                    <action selector="RollContextButtonPressed" destination="AgC-eL-Hgc" id="rL0-MJ-ALP"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Delete" icon="trash" id="wo7-0I-4OA">
+                                <connections>
+                                    <action selector="DeleteContextButtonPressed" destination="AgC-eL-Hgc" id="evm-fF-yBB"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
+                        <outlet property="ModeLabel" destination="jX7-t3-UAc" id="ICB-q9-OGU"/>
                         <outlet property="dicetable" destination="zTK-1L-pSg" id="4uf-Cb-Qwg"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="145" y="261"/>
+            <point key="canvasLocation" x="145" y="192"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

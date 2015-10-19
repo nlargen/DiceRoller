@@ -13,6 +13,7 @@ import Foundation
 class RollTypeController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
+        
         super.awakeWithContext(context)
         
         // Configure interface objects here.
@@ -22,6 +23,7 @@ class RollTypeController: WKInterfaceController {
     {
         DiceRollerCore.rolltype.append("Attack")
         DiceRollerCore.prefs.setObject(DiceRollerCore.rolltype, forKey:"rolltype")
+        
     }
     
     @IBAction func Defensebutton()

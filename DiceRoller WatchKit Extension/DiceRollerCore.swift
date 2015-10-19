@@ -22,5 +22,8 @@ class DiceRollerCore: NSObject
     static var rollsides = 0
     static var rolltotal = 0
     static var rolltype = [String]()
+    static var rollmode = "Roll"
+    static var rollindextoedit = 0
+    
 
 }

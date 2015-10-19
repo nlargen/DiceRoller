@@ -14,5 +14,5 @@ class tablecell: NSObject
     @IBOutlet var diceimage: WKInterfaceImage!
     @IBOutlet var dicelabel: WKInterfaceLabel!
     @IBOutlet var rolllabel: WKInterfaceLabel!
-    
+    @IBOutlet var rolltype: WKInterfaceLabel!
 }
