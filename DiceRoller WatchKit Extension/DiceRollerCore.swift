@@ -2,28 +2,25 @@
 //  DiceRollerCore.swift
 //  DiceRoller
 //
-//  Created by Nicholas Largen on 10/5/15.
-//  Copyright © 2015 Nicholas Largen. All rights reserved.
+//  Created by Michael Litman on 10/5/15.
+//  Copyright © 2015 awesomefat. All rights reserved.
 //
 
 import WatchKit
 
 class DiceRollerCore: NSObject
 {
-    
-    static let prefs = NSUserDefaults.standardUserDefaults()
     static var numSides = 0
-    static var numDice = -1
-    static var whichdiceselected = 0
-    static var diceselected = [Int]()
-    static var numdiceforeach = [Int]()
+    static var numDice = 1
+    static var currName = ""
+    static var theRolls = [Roll]()
+    static var hasDice = false
     
-    static var toroll = 0
-    static var rollsides = 0
-    static var rolltotal = 0
-    static var rolltype = [String]()
-    static var rollmode = "Roll"
-    static var rollindextoedit = 0
-    
-
+    static func resetValues()
+    {
+        numSides = 0
+        numDice = 1
+        currName = ""
+        hasDice = false
+    }
 }

@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>CUWCS.DiceRoller</string>
+	<string>com.awesomefat.DiceRoller</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

@@ -2,8 +2,8 @@
 //  NotificationController.swift
 //  DiceRoller WatchKit Extension
 //
-//  Created by Nicholas Largen on 10/2/15.
-//  Copyright © 2015 Nicholas Largen. All rights reserved.
+//  Created by Michael Litman on 9/25/15.
+//  Copyright © 2015 awesomefat. All rights reserved.
 //
 
 import WatchKit

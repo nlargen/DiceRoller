@@ -7,92 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7210E8B1BC2FA2D00834F1B /* buttonaddcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7210E8A1BC2FA2D00834F1B /* buttonaddcontroller.swift */; settings = {ASSET_TAGS = (); }; };
-		F7210E8D1BC2FA6900834F1B /* adddice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7210E8C1BC2FA6900834F1B /* adddice.swift */; settings = {ASSET_TAGS = (); }; };
-		F7210E911BC2FBF200834F1B /* tablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7210E901BC2FBF200834F1B /* tablecell.swift */; settings = {ASSET_TAGS = (); }; };
-		F7210E9D1BC303D300834F1B /* d4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E961BC303D300834F1B /* d4.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210E9E1BC303D300834F1B /* d4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E961BC303D300834F1B /* d4.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210E9F1BC303D300834F1B /* d6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E971BC303D300834F1B /* d6.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA01BC303D300834F1B /* d6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E971BC303D300834F1B /* d6.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA11BC303D300834F1B /* d8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E981BC303D300834F1B /* d8.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA21BC303D300834F1B /* d8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E981BC303D300834F1B /* d8.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA31BC303D300834F1B /* d10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E991BC303D300834F1B /* d10.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA41BC303D300834F1B /* d10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E991BC303D300834F1B /* d10.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA51BC303D300834F1B /* d12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9A1BC303D300834F1B /* d12.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA61BC303D300834F1B /* d12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9A1BC303D300834F1B /* d12.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA71BC303D300834F1B /* d20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9B1BC303D300834F1B /* d20.jpg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA81BC303D300834F1B /* d20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9B1BC303D300834F1B /* d20.jpg */; settings = {ASSET_TAGS = (); }; };
-		F7210EA91BC303D300834F1B /* d100.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9C1BC303D300834F1B /* d100.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EAA1BC303D300834F1B /* d100.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7210E9C1BC303D300834F1B /* d100.jpeg */; settings = {ASSET_TAGS = (); }; };
-		F7210EAD1BC30BE900834F1B /* DiceRollerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7210EAC1BC30BE900834F1B /* DiceRollerCore.swift */; settings = {ASSET_TAGS = (); }; };
-		F74806C11BBF14E6008398D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806C01BBF14E6008398D9 /* AppDelegate.swift */; };
-		F74806C31BBF14E6008398D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806C21BBF14E6008398D9 /* ViewController.swift */; };
-		F74806C61BBF14E6008398D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74806C41BBF14E6008398D9 /* Main.storyboard */; };
-		F74806C81BBF14E6008398D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74806C71BBF14E6008398D9 /* Assets.xcassets */; };
-		F74806CB1BBF14E6008398D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74806C91BBF14E6008398D9 /* LaunchScreen.storyboard */; };
-		F74806D61BBF14E6008398D9 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806D51BBF14E6008398D9 /* DiceRollerTests.swift */; };
-		F74806E11BBF14E6008398D9 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806E01BBF14E6008398D9 /* DiceRollerUITests.swift */; };
-		F74806E61BBF14E6008398D9 /* DiceRoller WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F74806E51BBF14E6008398D9 /* DiceRoller WatchKit App.app */; };
-		F74806EC1BBF14E6008398D9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74806EA1BBF14E6008398D9 /* Interface.storyboard */; };
-		F74806EE1BBF14E6008398D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74806ED1BBF14E6008398D9 /* Assets.xcassets */; };
-		F74806F51BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F74806F41BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F74806FC1BBF14E6008398D9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806FB1BBF14E6008398D9 /* InterfaceController.swift */; };
-		F74806FE1BBF14E6008398D9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806FD1BBF14E6008398D9 /* ExtensionDelegate.swift */; };
-		F74807001BBF14E6008398D9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74806FF1BBF14E6008398D9 /* NotificationController.swift */; };
-		F74807021BBF14E6008398D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74807011BBF14E6008398D9 /* Assets.xcassets */; };
-		F7496E0E1BCC463100DB7E66 /* RollTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */; settings = {ASSET_TAGS = (); }; };
+		68935DA01BB9CD890042795F /* d20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935D9F1BB9CD890042795F /* d20.jpeg */; };
+		68935DA21BB9CE400042795F /* diceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68935DA11BB9CE400042795F /* diceRow.swift */; };
+		68935DA41BB9CEED0042795F /* tableExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68935DA31BB9CEED0042795F /* tableExampleIC.swift */; };
+		68935DA61BB9D2DE0042795F /* Qbert.png in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA51BB9D2DE0042795F /* Qbert.png */; };
+		68935DAD1BBC6C6D0042795F /* d4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA71BBC6C6D0042795F /* d4.jpeg */; };
+		68935DAE1BBC6C6D0042795F /* d4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA71BBC6C6D0042795F /* d4.jpeg */; };
+		68935DAF1BBC6C6D0042795F /* d6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA81BBC6C6D0042795F /* d6.jpeg */; };
+		68935DB01BBC6C6D0042795F /* d6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA81BBC6C6D0042795F /* d6.jpeg */; };
+		68935DB11BBC6C6D0042795F /* d8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA91BBC6C6D0042795F /* d8.jpeg */; };
+		68935DB21BBC6C6D0042795F /* d8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DA91BBC6C6D0042795F /* d8.jpeg */; };
+		68935DB31BBC6C6D0042795F /* d10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAA1BBC6C6D0042795F /* d10.jpeg */; };
+		68935DB41BBC6C6D0042795F /* d10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAA1BBC6C6D0042795F /* d10.jpeg */; };
+		68935DB51BBC6C6D0042795F /* d12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAB1BBC6C6D0042795F /* d12.jpeg */; };
+		68935DB61BBC6C6D0042795F /* d12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAB1BBC6C6D0042795F /* d12.jpeg */; };
+		68935DB71BBC6C6D0042795F /* d100.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAC1BBC6C6D0042795F /* d100.jpeg */; };
+		68935DB81BBC6C6D0042795F /* d100.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 68935DAC1BBC6C6D0042795F /* d100.jpeg */; };
+		68935DBA1BBC6EC10042795F /* pickerExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68935DB91BBC6EC10042795F /* pickerExampleIC.swift */; };
+		68A6CE031BC30AEE0044DE04 /* DiceRollerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE021BC30AEE0044DE04 /* DiceRollerCore.swift */; };
+		68A6CE051BC5AADC0044DE04 /* MainScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE041BC5AADC0044DE04 /* MainScreenIC.swift */; };
+		68A6CE071BC5AB080044DE04 /* DiceSelectScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE061BC5AB080044DE04 /* DiceSelectScreenIC.swift */; };
+		68A6CE091BC5AB610044DE04 /* QuantitySelectScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE081BC5AB610044DE04 /* QuantitySelectScreenIC.swift */; };
+		68A6CE5D1BC84C9C0044DE04 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE5C1BC84C9C0044DE04 /* Roll.swift */; };
+		68A6CE5F1BC84FA20044DE04 /* rollRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6CE5E1BC84FA20044DE04 /* rollRow.swift */; };
+		68A764611BB5D9260007B18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A764601BB5D9260007B18A /* AppDelegate.swift */; };
+		68A764661BB5D9260007B18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A764641BB5D9260007B18A /* Main.storyboard */; };
+		68A764681BB5D9260007B18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A764671BB5D9260007B18A /* Assets.xcassets */; };
+		68A7646B1BB5D9260007B18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A764691BB5D9260007B18A /* LaunchScreen.storyboard */; };
+		68A764701BB5D9260007B18A /* DiceRoller WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68A7646F1BB5D9260007B18A /* DiceRoller WatchKit App.app */; };
+		68A764761BB5D9260007B18A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A764741BB5D9260007B18A /* Interface.storyboard */; };
+		68A764781BB5D9260007B18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A764771BB5D9260007B18A /* Assets.xcassets */; };
+		68A7647F1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68A7647E1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68A764861BB5D9260007B18A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A764851BB5D9260007B18A /* InterfaceController.swift */; };
+		68A764881BB5D9260007B18A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A764871BB5D9260007B18A /* ExtensionDelegate.swift */; };
+		68A7648A1BB5D9260007B18A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A764891BB5D9260007B18A /* NotificationController.swift */; };
+		68A7648C1BB5D9260007B18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A7648B1BB5D9260007B18A /* Assets.xcassets */; };
+		68B011F61BF3D93B00D5DA54 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B011F51BF3D93B00D5DA54 /* MainTVC.swift */; };
+		68B011FA1BF3E1FF00D5DA54 /* PhoneCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B011F91BF3E1FF00D5DA54 /* PhoneCore.swift */; };
+		68B011FE1BF6848600D5DA54 /* rollDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B011FD1BF6848600D5DA54 /* rollDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F74806D21BBF14E6008398D9 /* PBXContainerItemProxy */ = {
+		68A764711BB5D9260007B18A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F74806B51BBF14E6008398D9 /* Project object */;
+			containerPortal = 68A764551BB5D9260007B18A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F74806BC1BBF14E6008398D9;
-			remoteInfo = DiceRoller;
-		};
-		F74806DD1BBF14E6008398D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F74806B51BBF14E6008398D9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F74806BC1BBF14E6008398D9;
-			remoteInfo = DiceRoller;
-		};
-		F74806E71BBF14E6008398D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F74806B51BBF14E6008398D9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F74806E41BBF14E6008398D9;
+			remoteGlobalIDString = 68A7646E1BB5D9260007B18A;
 			remoteInfo = "DiceRoller WatchKit App";
 		};
-		F74806F61BBF14E6008398D9 /* PBXContainerItemProxy */ = {
+		68A764801BB5D9260007B18A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F74806B51BBF14E6008398D9 /* Project object */;
+			containerPortal = 68A764551BB5D9260007B18A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F74806F31BBF14E6008398D9;
+			remoteGlobalIDString = 68A7647D1BB5D9260007B18A;
 			remoteInfo = "DiceRoller WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F74807091BBF14E6008398D9 /* Embed App Extensions */ = {
+		68A764931BB5D9260007B18A /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F74806F51BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex in Embed App Extensions */,
+				68A7647F1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F748070D1BBF14E6008398D9 /* Embed Watch Content */ = {
+		68A764971BB5D9260007B18A /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				F74806E61BBF14E6008398D9 /* DiceRoller WatchKit App.app in Embed Watch Content */,
+				68A764701BB5D9260007B18A /* DiceRoller WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,68 +90,54 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F7210E891BC2FA2D00834F1B /* DiceRoller WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiceRoller WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
-		F7210E8A1BC2FA2D00834F1B /* buttonaddcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonaddcontroller.swift; sourceTree = "<group>"; };
-		F7210E8C1BC2FA6900834F1B /* adddice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adddice.swift; sourceTree = "<group>"; };
-		F7210E901BC2FBF200834F1B /* tablecell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tablecell.swift; sourceTree = "<group>"; };
-		F7210E961BC303D300834F1B /* d4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d4.jpeg; sourceTree = "<group>"; };
-		F7210E971BC303D300834F1B /* d6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d6.jpeg; sourceTree = "<group>"; };
-		F7210E981BC303D300834F1B /* d8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d8.jpeg; sourceTree = "<group>"; };
-		F7210E991BC303D300834F1B /* d10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d10.jpeg; sourceTree = "<group>"; };
-		F7210E9A1BC303D300834F1B /* d12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d12.jpeg; sourceTree = "<group>"; };
-		F7210E9B1BC303D300834F1B /* d20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d20.jpg; sourceTree = "<group>"; };
-		F7210E9C1BC303D300834F1B /* d100.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d100.jpeg; sourceTree = "<group>"; };
-		F7210EAC1BC30BE900834F1B /* DiceRollerCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollerCore.swift; sourceTree = "<group>"; };
-		F74806BD1BBF14E6008398D9 /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74806C01BBF14E6008398D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F74806C21BBF14E6008398D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F74806C51BBF14E6008398D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F74806C71BBF14E6008398D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F74806CA1BBF14E6008398D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F74806CC1BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74806D11BBF14E6008398D9 /* DiceRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74806D51BBF14E6008398D9 /* DiceRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerTests.swift; sourceTree = "<group>"; };
-		F74806D71BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74806DC1BBF14E6008398D9 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74806E01BBF14E6008398D9 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
-		F74806E21BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74806E51BBF14E6008398D9 /* DiceRoller WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceRoller WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74806EB1BBF14E6008398D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		F74806ED1BBF14E6008398D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F74806EF1BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74806F41BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DiceRoller WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74806FA1BBF14E6008398D9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		F74806FB1BBF14E6008398D9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		F74806FD1BBF14E6008398D9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		F74806FF1BBF14E6008398D9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		F74807011BBF14E6008398D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F74807031BBF14E6008398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollTypeController.swift; sourceTree = "<group>"; };
+		68935D9F1BB9CD890042795F /* d20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d20.jpeg; sourceTree = "<group>"; };
+		68935DA11BB9CE400042795F /* diceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diceRow.swift; sourceTree = "<group>"; };
+		68935DA31BB9CEED0042795F /* tableExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableExampleIC.swift; sourceTree = "<group>"; };
+		68935DA51BB9D2DE0042795F /* Qbert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Qbert.png; sourceTree = "<group>"; };
+		68935DA71BBC6C6D0042795F /* d4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d4.jpeg; sourceTree = "<group>"; };
+		68935DA81BBC6C6D0042795F /* d6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d6.jpeg; sourceTree = "<group>"; };
+		68935DA91BBC6C6D0042795F /* d8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d8.jpeg; sourceTree = "<group>"; };
+		68935DAA1BBC6C6D0042795F /* d10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d10.jpeg; sourceTree = "<group>"; };
+		68935DAB1BBC6C6D0042795F /* d12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d12.jpeg; sourceTree = "<group>"; };
+		68935DAC1BBC6C6D0042795F /* d100.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d100.jpeg; sourceTree = "<group>"; };
+		68935DB91BBC6EC10042795F /* pickerExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickerExampleIC.swift; sourceTree = "<group>"; };
+		68A6CE021BC30AEE0044DE04 /* DiceRollerCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollerCore.swift; sourceTree = "<group>"; };
+		68A6CE041BC5AADC0044DE04 /* MainScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenIC.swift; sourceTree = "<group>"; };
+		68A6CE061BC5AB080044DE04 /* DiceSelectScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceSelectScreenIC.swift; sourceTree = "<group>"; };
+		68A6CE081BC5AB610044DE04 /* QuantitySelectScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitySelectScreenIC.swift; sourceTree = "<group>"; };
+		68A6CE5C1BC84C9C0044DE04 /* Roll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		68A6CE5E1BC84FA20044DE04 /* rollRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rollRow.swift; sourceTree = "<group>"; };
+		68A7645D1BB5D9260007B18A /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A764601BB5D9260007B18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68A764651BB5D9260007B18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68A764671BB5D9260007B18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68A7646A1BB5D9260007B18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68A7646C1BB5D9260007B18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A7646F1BB5D9260007B18A /* DiceRoller WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceRoller WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A764751BB5D9260007B18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		68A764771BB5D9260007B18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68A764791BB5D9260007B18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A7647E1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DiceRoller WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A764841BB5D9260007B18A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		68A764851BB5D9260007B18A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		68A764871BB5D9260007B18A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		68A764891BB5D9260007B18A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		68A7648B1BB5D9260007B18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68A7648D1BB5D9260007B18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B011F51BF3D93B00D5DA54 /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		68B011F91BF3E1FF00D5DA54 /* PhoneCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCore.swift; sourceTree = "<group>"; };
+		68B011FD1BF6848600D5DA54 /* rollDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rollDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F74806BA1BBF14E6008398D9 /* Frameworks */ = {
+		68A7645A1BB5D9260007B18A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74806CE1BBF14E6008398D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806D91BBF14E6008398D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806F11BBF14E6008398D9 /* Frameworks */ = {
+		68A7647B1BB5D9260007B18A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -171,109 +147,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7210EAB1BC30ABE00834F1B /* images */ = {
+		68935D9E1BB9CD4E0042795F /* images */ = {
 			isa = PBXGroup;
 			children = (
-				F7210E961BC303D300834F1B /* d4.jpeg */,
-				F7210E971BC303D300834F1B /* d6.jpeg */,
-				F7210E981BC303D300834F1B /* d8.jpeg */,
-				F7210E991BC303D300834F1B /* d10.jpeg */,
-				F7210E9A1BC303D300834F1B /* d12.jpeg */,
-				F7210E9B1BC303D300834F1B /* d20.jpg */,
-				F7210E9C1BC303D300834F1B /* d100.jpeg */,
+				68935DA71BBC6C6D0042795F /* d4.jpeg */,
+				68935DA81BBC6C6D0042795F /* d6.jpeg */,
+				68935DA91BBC6C6D0042795F /* d8.jpeg */,
+				68935DAA1BBC6C6D0042795F /* d10.jpeg */,
+				68935DAB1BBC6C6D0042795F /* d12.jpeg */,
+				68935DAC1BBC6C6D0042795F /* d100.jpeg */,
+				68935DA51BB9D2DE0042795F /* Qbert.png */,
+				68935D9F1BB9CD890042795F /* d20.jpeg */,
 			);
 			name = images;
 			sourceTree = "<group>";
 		};
-		F74806B41BBF14E6008398D9 = {
+		68A6CE601BC84FA70044DE04 /* Table Rows */ = {
 			isa = PBXGroup;
 			children = (
-				F74806BF1BBF14E6008398D9 /* DiceRoller */,
-				F74806D41BBF14E6008398D9 /* DiceRollerTests */,
-				F74806DF1BBF14E6008398D9 /* DiceRollerUITests */,
-				F74806E91BBF14E6008398D9 /* DiceRoller WatchKit App */,
-				F74806F81BBF14E6008398D9 /* DiceRoller WatchKit Extension */,
-				F74806BE1BBF14E6008398D9 /* Products */,
+				68A6CE5E1BC84FA20044DE04 /* rollRow.swift */,
+				68935DA11BB9CE400042795F /* diceRow.swift */,
+			);
+			name = "Table Rows";
+			sourceTree = "<group>";
+		};
+		68A6CE611BC84FC60044DE04 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				68A6CE021BC30AEE0044DE04 /* DiceRollerCore.swift */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		68A6CE621BC84FD80044DE04 /* Code Behinds */ = {
+			isa = PBXGroup;
+			children = (
+				68A6CE041BC5AADC0044DE04 /* MainScreenIC.swift */,
+				68A6CE061BC5AB080044DE04 /* DiceSelectScreenIC.swift */,
+				68A6CE081BC5AB610044DE04 /* QuantitySelectScreenIC.swift */,
+			);
+			name = "Code Behinds";
+			sourceTree = "<group>";
+		};
+		68A6CE631BC84FF70044DE04 /* Support Objects */ = {
+			isa = PBXGroup;
+			children = (
+				68A6CE5C1BC84C9C0044DE04 /* Roll.swift */,
+			);
+			name = "Support Objects";
+			sourceTree = "<group>";
+		};
+		68A6CE641BC850440044DE04 /* Example Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				68A764851BB5D9260007B18A /* InterfaceController.swift */,
+				68935DA31BB9CEED0042795F /* tableExampleIC.swift */,
+				68935DB91BBC6EC10042795F /* pickerExampleIC.swift */,
+			);
+			name = "Example Stuff";
+			sourceTree = "<group>";
+		};
+		68A764541BB5D9260007B18A = {
+			isa = PBXGroup;
+			children = (
+				68A7645F1BB5D9260007B18A /* DiceRoller */,
+				68A764731BB5D9260007B18A /* DiceRoller WatchKit App */,
+				68A764821BB5D9260007B18A /* DiceRoller WatchKit Extension */,
+				68A7645E1BB5D9260007B18A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F74806BE1BBF14E6008398D9 /* Products */ = {
+		68A7645E1BB5D9260007B18A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F74806BD1BBF14E6008398D9 /* DiceRoller.app */,
-				F74806D11BBF14E6008398D9 /* DiceRollerTests.xctest */,
-				F74806DC1BBF14E6008398D9 /* DiceRollerUITests.xctest */,
-				F74806E51BBF14E6008398D9 /* DiceRoller WatchKit App.app */,
-				F74806F41BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex */,
+				68A7645D1BB5D9260007B18A /* DiceRoller.app */,
+				68A7646F1BB5D9260007B18A /* DiceRoller WatchKit App.app */,
+				68A7647E1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F74806BF1BBF14E6008398D9 /* DiceRoller */ = {
+		68A7645F1BB5D9260007B18A /* DiceRoller */ = {
 			isa = PBXGroup;
 			children = (
-				F74806C01BBF14E6008398D9 /* AppDelegate.swift */,
-				F74806C21BBF14E6008398D9 /* ViewController.swift */,
-				F74806C41BBF14E6008398D9 /* Main.storyboard */,
-				F74806C71BBF14E6008398D9 /* Assets.xcassets */,
-				F74806C91BBF14E6008398D9 /* LaunchScreen.storyboard */,
-				F74806CC1BBF14E6008398D9 /* Info.plist */,
+				68A764601BB5D9260007B18A /* AppDelegate.swift */,
+				68A764641BB5D9260007B18A /* Main.storyboard */,
+				68A764671BB5D9260007B18A /* Assets.xcassets */,
+				68A764691BB5D9260007B18A /* LaunchScreen.storyboard */,
+				68A7646C1BB5D9260007B18A /* Info.plist */,
+				68B011F51BF3D93B00D5DA54 /* MainTVC.swift */,
+				68B011F91BF3E1FF00D5DA54 /* PhoneCore.swift */,
+				68B011FD1BF6848600D5DA54 /* rollDetailCell.swift */,
 			);
 			path = DiceRoller;
 			sourceTree = "<group>";
 		};
-		F74806D41BBF14E6008398D9 /* DiceRollerTests */ = {
+		68A764731BB5D9260007B18A /* DiceRoller WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				F74806D51BBF14E6008398D9 /* DiceRollerTests.swift */,
-				F74806D71BBF14E6008398D9 /* Info.plist */,
-			);
-			path = DiceRollerTests;
-			sourceTree = "<group>";
-		};
-		F74806DF1BBF14E6008398D9 /* DiceRollerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F74806E01BBF14E6008398D9 /* DiceRollerUITests.swift */,
-				F74806E21BBF14E6008398D9 /* Info.plist */,
-			);
-			path = DiceRollerUITests;
-			sourceTree = "<group>";
-		};
-		F74806E91BBF14E6008398D9 /* DiceRoller WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				F7210EAB1BC30ABE00834F1B /* images */,
-				F74806EA1BBF14E6008398D9 /* Interface.storyboard */,
-				F74806ED1BBF14E6008398D9 /* Assets.xcassets */,
-				F74806EF1BBF14E6008398D9 /* Info.plist */,
+				68935D9E1BB9CD4E0042795F /* images */,
+				68A764741BB5D9260007B18A /* Interface.storyboard */,
+				68A764771BB5D9260007B18A /* Assets.xcassets */,
+				68A764791BB5D9260007B18A /* Info.plist */,
 			);
 			path = "DiceRoller WatchKit App";
 			sourceTree = "<group>";
 		};
-		F74806F81BBF14E6008398D9 /* DiceRoller WatchKit Extension */ = {
+		68A764821BB5D9260007B18A /* DiceRoller WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F74806FB1BBF14E6008398D9 /* InterfaceController.swift */,
-				F74806FD1BBF14E6008398D9 /* ExtensionDelegate.swift */,
-				F74806FF1BBF14E6008398D9 /* NotificationController.swift */,
-				F74807011BBF14E6008398D9 /* Assets.xcassets */,
-				F74807031BBF14E6008398D9 /* Info.plist */,
-				F74806F91BBF14E6008398D9 /* Supporting Files */,
-				F7210E891BC2FA2D00834F1B /* DiceRoller WatchKit App-Bridging-Header.h */,
-				F7210E901BC2FBF200834F1B /* tablecell.swift */,
+				68A6CE641BC850440044DE04 /* Example Stuff */,
+				68A6CE631BC84FF70044DE04 /* Support Objects */,
+				68A6CE621BC84FD80044DE04 /* Code Behinds */,
+				68A6CE611BC84FC60044DE04 /* Singletons */,
+				68A6CE601BC84FA70044DE04 /* Table Rows */,
+				68A764871BB5D9260007B18A /* ExtensionDelegate.swift */,
+				68A764891BB5D9260007B18A /* NotificationController.swift */,
+				68A7648B1BB5D9260007B18A /* Assets.xcassets */,
+				68A7648D1BB5D9260007B18A /* Info.plist */,
+				68A764831BB5D9260007B18A /* Supporting Files */,
 			);
 			path = "DiceRoller WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		F74806F91BBF14E6008398D9 /* Supporting Files */ = {
+		68A764831BB5D9260007B18A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F74806FA1BBF14E6008398D9 /* PushNotificationPayload.apns */,
-				F7210E8A1BC2FA2D00834F1B /* buttonaddcontroller.swift */,
-				F7210E8C1BC2FA6900834F1B /* adddice.swift */,
-				F7210EAC1BC30BE900834F1B /* DiceRollerCore.swift */,
-				F7496E0D1BCC463100DB7E66 /* RollTypeController.swift */,
+				68A764841BB5D9260007B18A /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -281,85 +281,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F74806BC1BBF14E6008398D9 /* DiceRoller */ = {
+		68A7645C1BB5D9260007B18A /* DiceRoller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F748070E1BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller" */;
+			buildConfigurationList = 68A764981BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller" */;
 			buildPhases = (
-				F74806B91BBF14E6008398D9 /* Sources */,
-				F74806BA1BBF14E6008398D9 /* Frameworks */,
-				F74806BB1BBF14E6008398D9 /* Resources */,
-				F748070D1BBF14E6008398D9 /* Embed Watch Content */,
+				68A764591BB5D9260007B18A /* Sources */,
+				68A7645A1BB5D9260007B18A /* Frameworks */,
+				68A7645B1BB5D9260007B18A /* Resources */,
+				68A764971BB5D9260007B18A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F74806E81BBF14E6008398D9 /* PBXTargetDependency */,
+				68A764721BB5D9260007B18A /* PBXTargetDependency */,
 			);
 			name = DiceRoller;
 			productName = DiceRoller;
-			productReference = F74806BD1BBF14E6008398D9 /* DiceRoller.app */;
+			productReference = 68A7645D1BB5D9260007B18A /* DiceRoller.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F74806D01BBF14E6008398D9 /* DiceRollerTests */ = {
+		68A7646E1BB5D9260007B18A /* DiceRoller WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F74807111BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRollerTests" */;
+			buildConfigurationList = 68A764941BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */;
 			buildPhases = (
-				F74806CD1BBF14E6008398D9 /* Sources */,
-				F74806CE1BBF14E6008398D9 /* Frameworks */,
-				F74806CF1BBF14E6008398D9 /* Resources */,
+				68A7646D1BB5D9260007B18A /* Resources */,
+				68A764931BB5D9260007B18A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F74806D31BBF14E6008398D9 /* PBXTargetDependency */,
-			);
-			name = DiceRollerTests;
-			productName = DiceRollerTests;
-			productReference = F74806D11BBF14E6008398D9 /* DiceRollerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F74806DB1BBF14E6008398D9 /* DiceRollerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F74807141BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRollerUITests" */;
-			buildPhases = (
-				F74806D81BBF14E6008398D9 /* Sources */,
-				F74806D91BBF14E6008398D9 /* Frameworks */,
-				F74806DA1BBF14E6008398D9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F74806DE1BBF14E6008398D9 /* PBXTargetDependency */,
-			);
-			name = DiceRollerUITests;
-			productName = DiceRollerUITests;
-			productReference = F74806DC1BBF14E6008398D9 /* DiceRollerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		F74806E41BBF14E6008398D9 /* DiceRoller WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F748070A1BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */;
-			buildPhases = (
-				F74806E31BBF14E6008398D9 /* Resources */,
-				F74807091BBF14E6008398D9 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F74806F71BBF14E6008398D9 /* PBXTargetDependency */,
+				68A764811BB5D9260007B18A /* PBXTargetDependency */,
 			);
 			name = "DiceRoller WatchKit App";
 			productName = "DiceRoller WatchKit App";
-			productReference = F74806E51BBF14E6008398D9 /* DiceRoller WatchKit App.app */;
+			productReference = 68A7646F1BB5D9260007B18A /* DiceRoller WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		F74806F31BBF14E6008398D9 /* DiceRoller WatchKit Extension */ = {
+		68A7647D1BB5D9260007B18A /* DiceRoller WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F74807061BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */;
+			buildConfigurationList = 68A764901BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */;
 			buildPhases = (
-				F74806F01BBF14E6008398D9 /* Sources */,
-				F74806F11BBF14E6008398D9 /* Frameworks */,
-				F74806F21BBF14E6008398D9 /* Resources */,
+				68A7647A1BB5D9260007B18A /* Sources */,
+				68A7647B1BB5D9260007B18A /* Frameworks */,
+				68A7647C1BB5D9260007B18A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,44 +331,33 @@
 			);
 			name = "DiceRoller WatchKit Extension";
 			productName = "DiceRoller WatchKit Extension";
-			productReference = F74806F41BBF14E6008398D9 /* DiceRoller WatchKit Extension.appex */;
+			productReference = 68A7647E1BB5D9260007B18A /* DiceRoller WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F74806B51BBF14E6008398D9 /* Project object */ = {
+		68A764551BB5D9260007B18A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Nicholas Largen";
+				ORGANIZATIONNAME = awesomefat;
 				TargetAttributes = {
-					F74806BC1BBF14E6008398D9 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2BGM79CF6R;
+					68A7645C1BB5D9260007B18A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4X76CP793V;
 					};
-					F74806D01BBF14E6008398D9 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2BGM79CF6R;
-						TestTargetID = F74806BC1BBF14E6008398D9;
+					68A7646E1BB5D9260007B18A = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					F74806DB1BBF14E6008398D9 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2BGM79CF6R;
-						TestTargetID = F74806BC1BBF14E6008398D9;
-					};
-					F74806E41BBF14E6008398D9 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2BGM79CF6R;
-					};
-					F74806F31BBF14E6008398D9 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 2BGM79CF6R;
+					68A7647D1BB5D9260007B18A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4X76CP793V;
 					};
 				};
 			};
-			buildConfigurationList = F74806B81BBF14E6008398D9 /* Build configuration list for PBXProject "DiceRoller" */;
+			buildConfigurationList = 68A764581BB5D9260007B18A /* Build configuration list for PBXProject "DiceRoller" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -412,165 +365,129 @@
 				en,
 				Base,
 			);
-			mainGroup = F74806B41BBF14E6008398D9;
-			productRefGroup = F74806BE1BBF14E6008398D9 /* Products */;
+			mainGroup = 68A764541BB5D9260007B18A;
+			productRefGroup = 68A7645E1BB5D9260007B18A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F74806BC1BBF14E6008398D9 /* DiceRoller */,
-				F74806D01BBF14E6008398D9 /* DiceRollerTests */,
-				F74806DB1BBF14E6008398D9 /* DiceRollerUITests */,
-				F74806E41BBF14E6008398D9 /* DiceRoller WatchKit App */,
-				F74806F31BBF14E6008398D9 /* DiceRoller WatchKit Extension */,
+				68A7645C1BB5D9260007B18A /* DiceRoller */,
+				68A7646E1BB5D9260007B18A /* DiceRoller WatchKit App */,
+				68A7647D1BB5D9260007B18A /* DiceRoller WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F74806BB1BBF14E6008398D9 /* Resources */ = {
+		68A7645B1BB5D9260007B18A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74806CB1BBF14E6008398D9 /* LaunchScreen.storyboard in Resources */,
-				F74806C81BBF14E6008398D9 /* Assets.xcassets in Resources */,
-				F74806C61BBF14E6008398D9 /* Main.storyboard in Resources */,
+				68A7646B1BB5D9260007B18A /* LaunchScreen.storyboard in Resources */,
+				68A764681BB5D9260007B18A /* Assets.xcassets in Resources */,
+				68A764661BB5D9260007B18A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74806CF1BBF14E6008398D9 /* Resources */ = {
+		68A7646D1BB5D9260007B18A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A764781BB5D9260007B18A /* Assets.xcassets in Resources */,
+				68935DB31BBC6C6D0042795F /* d10.jpeg in Resources */,
+				68A764761BB5D9260007B18A /* Interface.storyboard in Resources */,
+				68935DA61BB9D2DE0042795F /* Qbert.png in Resources */,
+				68935DB11BBC6C6D0042795F /* d8.jpeg in Resources */,
+				68935DAF1BBC6C6D0042795F /* d6.jpeg in Resources */,
+				68935DA01BB9CD890042795F /* d20.jpeg in Resources */,
+				68935DAD1BBC6C6D0042795F /* d4.jpeg in Resources */,
+				68935DB71BBC6C6D0042795F /* d100.jpeg in Resources */,
+				68935DB51BBC6C6D0042795F /* d12.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74806DA1BBF14E6008398D9 /* Resources */ = {
+		68A7647C1BB5D9260007B18A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806E31BBF14E6008398D9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7210E9D1BC303D300834F1B /* d4.jpeg in Resources */,
-				F7210EA11BC303D300834F1B /* d8.jpeg in Resources */,
-				F7210E9F1BC303D300834F1B /* d6.jpeg in Resources */,
-				F7210EA91BC303D300834F1B /* d100.jpeg in Resources */,
-				F74806EE1BBF14E6008398D9 /* Assets.xcassets in Resources */,
-				F7210EA71BC303D300834F1B /* d20.jpg in Resources */,
-				F74806EC1BBF14E6008398D9 /* Interface.storyboard in Resources */,
-				F7210EA31BC303D300834F1B /* d10.jpeg in Resources */,
-				F7210EA51BC303D300834F1B /* d12.jpeg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806F21BBF14E6008398D9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7210EA41BC303D300834F1B /* d10.jpeg in Resources */,
-				F7210EA01BC303D300834F1B /* d6.jpeg in Resources */,
-				F7210EAA1BC303D300834F1B /* d100.jpeg in Resources */,
-				F74807021BBF14E6008398D9 /* Assets.xcassets in Resources */,
-				F7210EA81BC303D300834F1B /* d20.jpg in Resources */,
-				F7210E9E1BC303D300834F1B /* d4.jpeg in Resources */,
-				F7210EA21BC303D300834F1B /* d8.jpeg in Resources */,
-				F7210EA61BC303D300834F1B /* d12.jpeg in Resources */,
+				68935DB81BBC6C6D0042795F /* d100.jpeg in Resources */,
+				68935DB41BBC6C6D0042795F /* d10.jpeg in Resources */,
+				68935DB01BBC6C6D0042795F /* d6.jpeg in Resources */,
+				68A7648C1BB5D9260007B18A /* Assets.xcassets in Resources */,
+				68935DAE1BBC6C6D0042795F /* d4.jpeg in Resources */,
+				68935DB21BBC6C6D0042795F /* d8.jpeg in Resources */,
+				68935DB61BBC6C6D0042795F /* d12.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F74806B91BBF14E6008398D9 /* Sources */ = {
+		68A764591BB5D9260007B18A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74806C31BBF14E6008398D9 /* ViewController.swift in Sources */,
-				F74806C11BBF14E6008398D9 /* AppDelegate.swift in Sources */,
+				68B011F61BF3D93B00D5DA54 /* MainTVC.swift in Sources */,
+				68B011FA1BF3E1FF00D5DA54 /* PhoneCore.swift in Sources */,
+				68A764611BB5D9260007B18A /* AppDelegate.swift in Sources */,
+				68B011FE1BF6848600D5DA54 /* rollDetailCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74806CD1BBF14E6008398D9 /* Sources */ = {
+		68A7647A1BB5D9260007B18A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74806D61BBF14E6008398D9 /* DiceRollerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806D81BBF14E6008398D9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F74806E11BBF14E6008398D9 /* DiceRollerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74806F01BBF14E6008398D9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7210E911BC2FBF200834F1B /* tablecell.swift in Sources */,
-				F74807001BBF14E6008398D9 /* NotificationController.swift in Sources */,
-				F7496E0E1BCC463100DB7E66 /* RollTypeController.swift in Sources */,
-				F7210E8B1BC2FA2D00834F1B /* buttonaddcontroller.swift in Sources */,
-				F7210E8D1BC2FA6900834F1B /* adddice.swift in Sources */,
-				F7210EAD1BC30BE900834F1B /* DiceRollerCore.swift in Sources */,
-				F74806FE1BBF14E6008398D9 /* ExtensionDelegate.swift in Sources */,
-				F74806FC1BBF14E6008398D9 /* InterfaceController.swift in Sources */,
+				68A6CE091BC5AB610044DE04 /* QuantitySelectScreenIC.swift in Sources */,
+				68A7648A1BB5D9260007B18A /* NotificationController.swift in Sources */,
+				68935DA21BB9CE400042795F /* diceRow.swift in Sources */,
+				68A764881BB5D9260007B18A /* ExtensionDelegate.swift in Sources */,
+				68A6CE071BC5AB080044DE04 /* DiceSelectScreenIC.swift in Sources */,
+				68A6CE5F1BC84FA20044DE04 /* rollRow.swift in Sources */,
+				68A764861BB5D9260007B18A /* InterfaceController.swift in Sources */,
+				68A6CE031BC30AEE0044DE04 /* DiceRollerCore.swift in Sources */,
+				68935DBA1BBC6EC10042795F /* pickerExampleIC.swift in Sources */,
+				68A6CE5D1BC84C9C0044DE04 /* Roll.swift in Sources */,
+				68A6CE051BC5AADC0044DE04 /* MainScreenIC.swift in Sources */,
+				68935DA41BB9CEED0042795F /* tableExampleIC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F74806D31BBF14E6008398D9 /* PBXTargetDependency */ = {
+		68A764721BB5D9260007B18A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F74806BC1BBF14E6008398D9 /* DiceRoller */;
-			targetProxy = F74806D21BBF14E6008398D9 /* PBXContainerItemProxy */;
+			target = 68A7646E1BB5D9260007B18A /* DiceRoller WatchKit App */;
+			targetProxy = 68A764711BB5D9260007B18A /* PBXContainerItemProxy */;
 		};
-		F74806DE1BBF14E6008398D9 /* PBXTargetDependency */ = {
+		68A764811BB5D9260007B18A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F74806BC1BBF14E6008398D9 /* DiceRoller */;
-			targetProxy = F74806DD1BBF14E6008398D9 /* PBXContainerItemProxy */;
-		};
-		F74806E81BBF14E6008398D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F74806E41BBF14E6008398D9 /* DiceRoller WatchKit App */;
-			targetProxy = F74806E71BBF14E6008398D9 /* PBXContainerItemProxy */;
-		};
-		F74806F71BBF14E6008398D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F74806F31BBF14E6008398D9 /* DiceRoller WatchKit Extension */;
-			targetProxy = F74806F61BBF14E6008398D9 /* PBXContainerItemProxy */;
+			target = 68A7647D1BB5D9260007B18A /* DiceRoller WatchKit Extension */;
+			targetProxy = 68A764801BB5D9260007B18A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F74806C41BBF14E6008398D9 /* Main.storyboard */ = {
+		68A764641BB5D9260007B18A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F74806C51BBF14E6008398D9 /* Base */,
+				68A764651BB5D9260007B18A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F74806C91BBF14E6008398D9 /* LaunchScreen.storyboard */ = {
+		68A764691BB5D9260007B18A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F74806CA1BBF14E6008398D9 /* Base */,
+				68A7646A1BB5D9260007B18A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		F74806EA1BBF14E6008398D9 /* Interface.storyboard */ = {
+		68A764741BB5D9260007B18A /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F74806EB1BBF14E6008398D9 /* Base */,
+				68A764751BB5D9260007B18A /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -578,7 +495,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F74807041BBF14E6008398D9 /* Debug */ = {
+		68A7648E1BB5D9260007B18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,6 +512,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -622,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		F74807051BBF14E6008398D9 /* Release */ = {
+		68A7648F1BB5D9260007B18A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -639,6 +557,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -659,13 +578,16 @@
 			};
 			name = Release;
 		};
-		F74807071BBF14E6008398D9 /* Debug */ = {
+		68A764911BB5D9260007B18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DiceRoller WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -673,13 +595,16 @@
 			};
 			name = Debug;
 		};
-		F74807081BBF14E6008398D9 /* Release */ = {
+		68A764921BB5D9260007B18A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DiceRoller WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -687,173 +612,106 @@
 			};
 			name = Release;
 		};
-		F748070B1BBF14E6008398D9 /* Debug */ = {
+		68A764951BB5D9260007B18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = DiceRoller_WatchKit_Extension;
 				INFOPLIST_FILE = "DiceRoller WatchKit App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "DiceRoller WatchKit Extension/DiceRoller WatchKit App-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		F748070C1BBF14E6008398D9 /* Release */ = {
+		68A764961BB5D9260007B18A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = DiceRoller_WatchKit_Extension;
 				INFOPLIST_FILE = "DiceRoller WatchKit App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "DiceRoller WatchKit Extension/DiceRoller WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		F748070F1BBF14E6008398D9 /* Debug */ = {
+		68A764991BB5D9260007B18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiceRoller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		F74807101BBF14E6008398D9 /* Release */ = {
+		68A7649A1BB5D9260007B18A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DiceRoller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRoller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomefat.DiceRoller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F74807121BBF14E6008398D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DiceRollerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRollerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRoller.app/DiceRoller";
-			};
-			name = Debug;
-		};
-		F74807131BBF14E6008398D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DiceRollerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRollerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRoller.app/DiceRoller";
-			};
-			name = Release;
-		};
-		F74807151BBF14E6008398D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DiceRollerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRollerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DiceRoller;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		F74807161BBF14E6008398D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DiceRollerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CUWCS.DiceRollerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = DiceRoller;
-				USES_XCTRUNNER = YES;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F74806B81BBF14E6008398D9 /* Build configuration list for PBXProject "DiceRoller" */ = {
+		68A764581BB5D9260007B18A /* Build configuration list for PBXProject "DiceRoller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F74807041BBF14E6008398D9 /* Debug */,
-				F74807051BBF14E6008398D9 /* Release */,
+				68A7648E1BB5D9260007B18A /* Debug */,
+				68A7648F1BB5D9260007B18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F74807061BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */ = {
+		68A764901BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F74807071BBF14E6008398D9 /* Debug */,
-				F74807081BBF14E6008398D9 /* Release */,
+				68A764911BB5D9260007B18A /* Debug */,
+				68A764921BB5D9260007B18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F748070A1BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */ = {
+		68A764941BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F748070B1BBF14E6008398D9 /* Debug */,
-				F748070C1BBF14E6008398D9 /* Release */,
+				68A764951BB5D9260007B18A /* Debug */,
+				68A764961BB5D9260007B18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F748070E1BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRoller" */ = {
+		68A764981BB5D9260007B18A /* Build configuration list for PBXNativeTarget "DiceRoller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F748070F1BBF14E6008398D9 /* Debug */,
-				F74807101BBF14E6008398D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F74807111BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRollerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F74807121BBF14E6008398D9 /* Debug */,
-				F74807131BBF14E6008398D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F74807141BBF14E6008398D9 /* Build configuration list for PBXNativeTarget "DiceRollerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F74807151BBF14E6008398D9 /* Debug */,
-				F74807161BBF14E6008398D9 /* Release */,
+				68A764991BB5D9260007B18A /* Debug */,
+				68A7649A1BB5D9260007B18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F74806B51BBF14E6008398D9 /* Project object */;
+	rootObject = 68A764551BB5D9260007B18A /* Project object */;
 }

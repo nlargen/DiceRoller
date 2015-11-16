@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  DiceRoller
 //
-//  Created by Nicholas Largen on 10/2/15.
-//  Copyright © 2015 Nicholas Largen. All rights reserved.
+
 //
 
 import UIKit
